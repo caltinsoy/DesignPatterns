@@ -1,9 +1,9 @@
-package main.java.factory;
+package main.java.FactoryDesignPattern.factory;
 
-import main.java.interfaces.Shape;
-import main.java.model.Circle;
-import main.java.model.Rectangle;
-import main.java.model.Square;
+import main.java.FactoryDesignPattern.interfaces.Shape;
+import main.java.FactoryDesignPattern.model.Circle;
+import main.java.FactoryDesignPattern.model.Rectangle;
+import main.java.FactoryDesignPattern.model.Square;
 
 public class ShapeFactory {
 
@@ -19,4 +19,6 @@ public class ShapeFactory {
         }
         return null;
     }
+    //In Factory Pattern we create object without exposing the creation logic to
+    // the client and refer to newly created object using a  common interface.
 }

@@ -1,6 +1,6 @@
-package main.java.model;
+package main.java.FactoryDesignPattern.model;
 
-import main.java.interfaces.Shape;
+import main.java.FactoryDesignPattern.interfaces.Shape;
 
 public class Circle implements Shape {
 

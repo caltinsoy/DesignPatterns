@@ -1,7 +1,8 @@
 package main.java;
 
-import main.java.factory.ShapeFactory;
-import main.java.interfaces.Shape;
+import main.java.FactoryDesignPattern.factory.ShapeFactory;
+import main.java.FactoryDesignPattern.interfaces.Shape;
+import main.java.SingletonDesignPattern.model.SingleObject;
 
 public class FactoryMainDemo {
 
@@ -16,7 +17,9 @@ public class FactoryMainDemo {
         Shape shapeThird = shapeFactory.getShape("Square");
         shapeThird.draw();
 
+        /* This is Singleton Design Pattern Example
+        SingleObject singleObject = SingleObject.getInstanceOfSingleObject();
+        singleObject.showClassMessage();*/
+
     }
-//In Factory Pattern we create object without exposing the creation logic to
-    // the client and refer to newly created object using a  common interface.
 }
